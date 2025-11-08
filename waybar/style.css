@@ -1,0 +1,90 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font Mono", "Font Awesome 6 Free", "Font Awesome 5 Free", "Weather Icons", "Material Design Icons", sans-serif;
+  font-size: 8pt;
+}
+
+/* === Waybar Transparent Clean Style === */
+
+#waybar {
+  background: rgba(20, 20, 25, 0.3);
+  color: #eaeaea;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 12px;
+  border: none;
+  margin: 4px;
+  padding: 4px 6px;
+  min-height: 28px;
+}
+
+/* Module containers */
+.modules-left > *,
+.modules-center > *,
+.modules-right > * {
+  background: rgba(30, 30, 35, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 2px 8px;
+  margin: 0 4px;
+  min-height: 22px;
+  transition: background 0.2s ease;
+}
+
+/* Hover effect */
+.modules-left > *:hover,
+.modules-center > *:hover,
+.modules-right > *:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Workspaces */
+#workspaces button {
+  padding: 0 10px;
+  border-radius: 8px;
+  margin: 0 3px;
+  background: transparent;
+  color: #ccc;
+  border: none;
+  font-weight: 500;
+}
+
+#workspaces button.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Common modules */
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#network,
+#pulseaudio,
+#power-profiles-daemon,
+#tray,
+#custom-power {
+  padding: 0 8px;
+  min-width: 20px;
+}
+
+/* Power button */
+#custom-power {
+  color: #ff6b6b;
+}
+#custom-power:hover {
+  background: rgba(255, 107, 107, 0.2);
+}
+
+/* Tooltip styling */
+tooltip {
+  background: rgba(20, 20, 25, 0.85);
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 11px;
+  padding: 6px 10px;
+}

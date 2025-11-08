@@ -1,0 +1,9 @@
+*.log
+*.cache
+*.bak
+*.swp
+__pycache__/
+.vscode/
+.DS_Store
+*.png
+*.jpg
