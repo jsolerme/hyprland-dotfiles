@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../waybar"
+		},
+		{
+			"path": "../wlogout"
+		},
+		{
+			"path": "../kitty"
+		},
+		{
+			"path": "../fish"
+		},
+		{
+			"path": "../btop"
+		}
+	],
+	"settings": {}
+}

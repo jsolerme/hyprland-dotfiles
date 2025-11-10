@@ -13,7 +13,6 @@ BOLD='\033[1m'
 declare -A configs=(
     ["Hyprland"]="~/.config/hypr/hyprland.conf"
     ["Waybar"]="~/.config/waybar/config.jsonc"
-    ["Waybar Style"]="~/.config/waybar/style.css"
     ["Hyprpaper"]="~/.config/hypr/hyprpaper.conf"
     ["Wlogout"]="~/.config/wlogout/layout"
     ["Hyprlock"]="~/.config/hypr/hyprlock.conf"
