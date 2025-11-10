@@ -1,0 +1,17 @@
+######################
+## YAY Package List ##
+######################
+
+## --- Driver Control --- ##
+envycontrol 3.5.2-1        # My current setup requires me this.
+
+
+## --- Aditional Fonts --- ##
+ttf-font-awesome-5
+ttf-weather-icons
+
+## --- Logout --- ##
+wlogout
+
+## --- Browser -- ##
+zen-browser-bin # Firefox Based

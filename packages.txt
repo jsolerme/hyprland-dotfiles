@@ -1,0 +1,56 @@
+############################
+### Pacman Packages List ###
+############################
+
+## --- Hyprland & Wayland --- ##
+
+hyprland
+hyprpaper
+hyprlock
+hypridle
+waybar
+wlogout
+xdg-desktop-portal-hyprland
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+
+## --- Login & Display Management -- ##
+
+greetd
+tuigreet
+seatd
+
+## --- Core Utilities --- ##
+
+btop
+fastfetch
+playerctl
+brightnessctl
+power-profiles-daemon
+
+## --- Appearance & Fonts --- ##
+
+qt5-wayland
+qt6-wayland
+lxappearance
+papirus-icon-theme
+noto-fonts
+noto-fonts-emoji
+ttf-jetbrains-mono
+ttf-font-awesome
+
+## --- Screenshots --- ##
+
+flameshot
+grim
+slurp
+
+## --- CLI Utils --- ##
+
+lazygit
+yay
+
+
+## --- New Shell --- ##
+
+fish
