@@ -17,6 +17,7 @@ declare -A configs=(
     ["Wlogout"]="~/.config/wlogout/layout"
     ["Hyprlock"]="~/.config/hypr/hyprlock.conf"
     ["Config Script"]="~/.config/hypr/editconfig.sh"
+    ["Copy Dotfiles"]="~/dotfiles/sync_to_dotfiles.sh"
 )
 
 # --- Header ---
