@@ -1,13 +1,16 @@
+@import "../hypr/theming/colors/colors.css";
+
+
 * {
   font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font Mono", "Font Awesome 6 Free", "Font Awesome 5 Free", "Weather Icons", "Material Design Icons", sans-serif;
   font-size: 8pt;
 }
 
-/* === Waybar Transparent Clean Style === */
+/* === Waybar Style === */
 
 #waybar {
-  background: rgba(20, 20, 25, 0.3);
-  color: #eaeaea;
+  background: mix(@background, transparent, 0.7);
+  color: @foreground;
   font-family: "JetBrainsMono Nerd Font", monospace;
   font-size: 12px;
   border: none;
@@ -20,8 +23,8 @@
 .modules-left > *,
 .modules-center > *,
 .modules-right > * {
-  background: rgba(30, 30, 35, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: mix(@background, transparent, 0.2);
+  border: 1px solid mix(@accent, transparent, 0.5);
   border-radius: 10px;
   padding: 2px 8px;
   margin: 0 4px;
@@ -33,7 +36,7 @@
 .modules-left > *:hover,
 .modules-center > *:hover,
 .modules-right > *:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: @background;
 }
 
 /* Workspaces */
@@ -42,18 +45,18 @@
   border-radius: 8px;
   margin: 0 3px;
   background: transparent;
-  color: #ccc;
+  color: @foreground;
   border: none;
   font-weight: 500;
 }
 
 #workspaces button.active {
-  background: rgba(255, 255, 255, 0.15);
-  color: #fff;
+  background: mix(@accent, transparent, 0.65);
+  color: @foreground;
 }
 
 #workspaces button:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: mix(@accent-alt, transparent, 0.4);
 }
 
 /* Common modules */
@@ -69,22 +72,23 @@
 #custom-power {
   padding: 0 8px;
   min-width: 20px;
+  color: @foreground;
 }
 
 /* Power button */
 #custom-power {
-  color: #ff6b6b;
+  color: @error;
 }
 #custom-power:hover {
-  background: rgba(255, 107, 107, 0.2);
+  background: mix(@warning, transparent, 0.65);
 }
 
 /* Tooltip styling */
 tooltip {
-  background: rgba(20, 20, 25, 0.85);
-  color: #fff;
+  background: mix(@background, transparent, 0.75);
+  color: @foreground;
   border-radius: 6px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid mix(@accent, transparent, 0.65);
   font-size: 11px;
   padding: 6px 10px;
 }

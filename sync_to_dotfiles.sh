@@ -14,6 +14,8 @@ CONFIGS=(
   "wlogout"
   "btop"
   "fastfetch"
+  "gtk-4.0"
+  "gtk-3.0"
 )
 
 # === Script ===
