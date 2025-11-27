@@ -3,8 +3,10 @@
 ######################
 
 ## --- Driver Control --- ##
-envycontrol 3.5.2-1        # My current setup requires me this.
+envycontrol                 # My current setup requires me this.
 
+## --- Wallpaper ---##
+waypaper
 
 ## --- Aditional Fonts --- ##
 ttf-font-awesome-5
@@ -14,4 +16,4 @@ ttf-weather-icons
 wlogout
 
 ## --- Browser -- ##
-zen-browser-bin # Firefox Based
+zen-browser-bin              # Firefox Based
