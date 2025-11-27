@@ -23,6 +23,9 @@
 		},
 		{
 			"path": "../gtk-3.0"
+		},
+		{
+			"path": "../fastfetch"
 		}
 	],
 	"settings": {}
