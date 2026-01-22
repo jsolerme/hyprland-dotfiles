@@ -9,6 +9,7 @@ DOTFILES_DIR="$HOME/dotfiles"
 CONFIGS=(
   "hypr"
   "waybar"
+  "waypaper"
   "kitty"
   "fish"
   "wlogout"
