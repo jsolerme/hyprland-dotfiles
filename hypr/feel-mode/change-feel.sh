@@ -11,6 +11,6 @@ if [ ! -f "$DIR/$MODE.conf" ]; then
 fi
 
 # Replacement with new feel mode.
-sed -i "s|\(source[[:space:]]*=\)[[:space:]]*.*|\1 $DIR/$MODE.conf|" "$TARGET"
+sed -i "s|\(source[[:space:]]*=\)[[:space:]]*.*|\1 ~/.config/hypr/feel-mode/$MODE.conf|" "$TARGET"
 
 notify-send "Hypr-Feel" "Switched to $MODE mode"

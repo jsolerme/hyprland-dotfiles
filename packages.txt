@@ -29,6 +29,8 @@ fastfetch
 playerctl
 brightnessctl
 power-profiles-daemon
+thunar
+tumbler
 
 ## --- Appearance & Fonts --- ##
 
